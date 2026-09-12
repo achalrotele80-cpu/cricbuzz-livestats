@@ -4,6 +4,12 @@ import plotly.express as px
 
 from utils.db_connection import get_connection
 
+st.set_page_config(
+    page_title="Cricbuzz LiveStats",
+    page_icon="🏏",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 # ============================================================
 # DATABASE HELPER
